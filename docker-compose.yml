@@ -4,8 +4,7 @@ services:
     image: localstack/localstack:latest
     container_name: localstack_demo
     ports:
-      - '4563-4584:4563-4584'
-      - '8055:8080'
+      - '4566:4566'
     environment:
       - SERVICES=s3
       - DEBUG=1
